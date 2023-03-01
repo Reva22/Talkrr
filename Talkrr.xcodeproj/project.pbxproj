@@ -10,12 +10,21 @@
 		2C42DEB32996689300F7268F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C42DEB22996689300F7268F /* AppDelegate.swift */; };
 		2C42DEB52996689300F7268F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C42DEB42996689300F7268F /* SceneDelegate.swift */; };
 		2C42DEB72996689300F7268F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C42DEB62996689300F7268F /* ViewController.swift */; };
-		2C42DEBA2996689300F7268F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C42DEB82996689300F7268F /* Main.storyboard */; };
 		2C42DEBC2996689300F7268F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C42DEBB2996689300F7268F /* Assets.xcassets */; };
 		2C42DEBF2996689300F7268F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C42DEBD2996689300F7268F /* LaunchScreen.storyboard */; };
 		2C42DECA2996689400F7268F /* TalkrrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C42DEC92996689400F7268F /* TalkrrTests.swift */; };
 		2C42DED42996689400F7268F /* TalkrrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C42DED32996689400F7268F /* TalkrrUITests.swift */; };
 		2C42DED62996689400F7268F /* TalkrrUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C42DED52996689400F7268F /* TalkrrUITestsLaunchTests.swift */; };
+		2C42DEE329966F6700F7268F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C42DEE229966F6700F7268F /* GoogleService-Info.plist */; };
+		2C42DEE5299679AC00F7268F /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C42DEE4299679AC00F7268F /* Utilities.swift */; };
+		2C42DEE729967A6800F7268F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C42DEE629967A6800F7268F /* RegisterViewController.swift */; };
+		2C42DEE929967AD300F7268F /* ChatPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C42DEE829967AD300F7268F /* ChatPageViewController.swift */; };
+		2C42DEEB29967B0800F7268F /* ChatViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C42DEEA29967B0800F7268F /* ChatViewCell.swift */; };
+		2C42DEEF29967B6600F7268F /* SelectUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C42DEEE29967B6600F7268F /* SelectUserViewController.swift */; };
+		2C42DEF1299767E600F7268F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C42DEF0299767E600F7268F /* Constants.swift */; };
+		7931E50D33ABC55806012113 /* Pods_Talkrr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE91692128831496C32932E /* Pods_Talkrr.framework */; };
+		A3E45F3BEF0B5AC47C061F05 /* Pods_Talkrr_TalkrrUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC0A046B46AC45393490EFEF /* Pods_Talkrr_TalkrrUITests.framework */; };
+		AAC60977731173222FA79246 /* Pods_TalkrrTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6A8A799C6011AB1788AD6A0 /* Pods_TalkrrTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23CF73223D2E5091AC34DCF2 /* Pods-Talkrr-TalkrrUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Talkrr-TalkrrUITests.release.xcconfig"; path = "Target Support Files/Pods-Talkrr-TalkrrUITests/Pods-Talkrr-TalkrrUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2C42DEAF2996689300F7268F /* Talkrr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Talkrr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C42DEB22996689300F7268F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C42DEB42996689300F7268F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2C42DEB62996689300F7268F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2C42DEB92996689300F7268F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C42DEBB2996689300F7268F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C42DEBE2996689300F7268F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C42DEC02996689300F7268F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +58,21 @@
 		2C42DECF2996689400F7268F /* TalkrrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalkrrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C42DED32996689400F7268F /* TalkrrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkrrUITests.swift; sourceTree = "<group>"; };
 		2C42DED52996689400F7268F /* TalkrrUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkrrUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2C42DEE229966F6700F7268F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2C42DEE4299679AC00F7268F /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		2C42DEE629967A6800F7268F /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		2C42DEE829967AD300F7268F /* ChatPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatPageViewController.swift; sourceTree = "<group>"; };
+		2C42DEEA29967B0800F7268F /* ChatViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewCell.swift; sourceTree = "<group>"; };
+		2C42DEEE29967B6600F7268F /* SelectUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectUserViewController.swift; sourceTree = "<group>"; };
+		2C42DEF0299767E600F7268F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		34511FE7A9BFE898F7316E8E /* Pods-Talkrr-TalkrrUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Talkrr-TalkrrUITests.debug.xcconfig"; path = "Target Support Files/Pods-Talkrr-TalkrrUITests/Pods-Talkrr-TalkrrUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5465D1F9BC47CC102A4BBC97 /* Pods-TalkrrTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkrrTests.release.xcconfig"; path = "Target Support Files/Pods-TalkrrTests/Pods-TalkrrTests.release.xcconfig"; sourceTree = "<group>"; };
+		8B61C99824219D5E7ECC738D /* Pods-Talkrr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Talkrr.debug.xcconfig"; path = "Target Support Files/Pods-Talkrr/Pods-Talkrr.debug.xcconfig"; sourceTree = "<group>"; };
+		AC0A046B46AC45393490EFEF /* Pods_Talkrr_TalkrrUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Talkrr_TalkrrUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFE91692128831496C32932E /* Pods_Talkrr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Talkrr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C32B7AB5244F168D138F61E7 /* Pods-Talkrr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Talkrr.release.xcconfig"; path = "Target Support Files/Pods-Talkrr/Pods-Talkrr.release.xcconfig"; sourceTree = "<group>"; };
+		E4A160A852C8D68469B574CB /* Pods-TalkrrTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkrrTests.debug.xcconfig"; path = "Target Support Files/Pods-TalkrrTests/Pods-TalkrrTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6A8A799C6011AB1788AD6A0 /* Pods_TalkrrTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TalkrrTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7931E50D33ABC55806012113 /* Pods_Talkrr.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAC60977731173222FA79246 /* Pods_TalkrrTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +96,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3E45F3BEF0B5AC47C061F05 /* Pods_Talkrr_TalkrrUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25EB266A61B7B6D7FE6C2741 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFE91692128831496C32932E /* Pods_Talkrr.framework */,
+				AC0A046B46AC45393490EFEF /* Pods_Talkrr_TalkrrUITests.framework */,
+				F6A8A799C6011AB1788AD6A0 /* Pods_TalkrrTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2C42DEA62996689300F7268F = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +120,8 @@
 				2C42DEC82996689400F7268F /* TalkrrTests */,
 				2C42DED22996689400F7268F /* TalkrrUITests */,
 				2C42DEB02996689300F7268F /* Products */,
+				5F338515185E6D6077F9A2BB /* Pods */,
+				25EB266A61B7B6D7FE6C2741 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,9 +141,15 @@
 				2C42DEB22996689300F7268F /* AppDelegate.swift */,
 				2C42DEB42996689300F7268F /* SceneDelegate.swift */,
 				2C42DEB62996689300F7268F /* ViewController.swift */,
-				2C42DEB82996689300F7268F /* Main.storyboard */,
+				2C42DEE629967A6800F7268F /* RegisterViewController.swift */,
+				2C42DEEE29967B6600F7268F /* SelectUserViewController.swift */,
+				2C42DEE829967AD300F7268F /* ChatPageViewController.swift */,
+				2C42DEEA29967B0800F7268F /* ChatViewCell.swift */,
+				2C42DEF0299767E600F7268F /* Constants.swift */,
+				2C42DEE4299679AC00F7268F /* Utilities.swift */,
 				2C42DEBB2996689300F7268F /* Assets.xcassets */,
 				2C42DEBD2996689300F7268F /* LaunchScreen.storyboard */,
+				2C42DEE229966F6700F7268F /* GoogleService-Info.plist */,
 				2C42DEC02996689300F7268F /* Info.plist */,
 			);
 			path = Talkrr;
@@ -127,6 +172,19 @@
 			path = TalkrrUITests;
 			sourceTree = "<group>";
 		};
+		5F338515185E6D6077F9A2BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B61C99824219D5E7ECC738D /* Pods-Talkrr.debug.xcconfig */,
+				C32B7AB5244F168D138F61E7 /* Pods-Talkrr.release.xcconfig */,
+				34511FE7A9BFE898F7316E8E /* Pods-Talkrr-TalkrrUITests.debug.xcconfig */,
+				23CF73223D2E5091AC34DCF2 /* Pods-Talkrr-TalkrrUITests.release.xcconfig */,
+				E4A160A852C8D68469B574CB /* Pods-TalkrrTests.debug.xcconfig */,
+				5465D1F9BC47CC102A4BBC97 /* Pods-TalkrrTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +192,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C42DED92996689400F7268F /* Build configuration list for PBXNativeTarget "Talkrr" */;
 			buildPhases = (
+				3107FB44987B262B7723E976 /* [CP] Check Pods Manifest.lock */,
 				2C42DEAB2996689300F7268F /* Sources */,
 				2C42DEAC2996689300F7268F /* Frameworks */,
 				2C42DEAD2996689300F7268F /* Resources */,
+				76DA5F4D87825A3B7843B60D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C42DEDC2996689400F7268F /* Build configuration list for PBXNativeTarget "TalkrrTests" */;
 			buildPhases = (
+				B2D08359939760731A951E3B /* [CP] Check Pods Manifest.lock */,
 				2C42DEC12996689400F7268F /* Sources */,
 				2C42DEC22996689400F7268F /* Frameworks */,
 				2C42DEC32996689400F7268F /* Resources */,
@@ -169,9 +230,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C42DEDF2996689400F7268F /* Build configuration list for PBXNativeTarget "TalkrrUITests" */;
 			buildPhases = (
+				A5F8A7557B9FDB57AED125F5 /* [CP] Check Pods Manifest.lock */,
 				2C42DECB2996689400F7268F /* Sources */,
 				2C42DECC2996689400F7268F /* Frameworks */,
 				2C42DECD2996689400F7268F /* Resources */,
+				34166932C7319BB8E0CD0837 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,8 +295,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C42DEBF2996689300F7268F /* LaunchScreen.storyboard in Resources */,
+				2C42DEE329966F6700F7268F /* GoogleService-Info.plist in Resources */,
 				2C42DEBC2996689300F7268F /* Assets.xcassets in Resources */,
-				2C42DEBA2996689300F7268F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +316,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3107FB44987B262B7723E976 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Talkrr-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34166932C7319BB8E0CD0837 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Talkrr-TalkrrUITests/Pods-Talkrr-TalkrrUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Talkrr-TalkrrUITests/Pods-Talkrr-TalkrrUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Talkrr-TalkrrUITests/Pods-Talkrr-TalkrrUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76DA5F4D87825A3B7843B60D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Talkrr/Pods-Talkrr-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Talkrr/Pods-Talkrr-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Talkrr/Pods-Talkrr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5F8A7557B9FDB57AED125F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Talkrr-TalkrrUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2D08359939760731A951E3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TalkrrTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C42DEAB2996689300F7268F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C42DEE729967A6800F7268F /* RegisterViewController.swift in Sources */,
+				2C42DEEF29967B6600F7268F /* SelectUserViewController.swift in Sources */,
+				2C42DEE929967AD300F7268F /* ChatPageViewController.swift in Sources */,
 				2C42DEB72996689300F7268F /* ViewController.swift in Sources */,
 				2C42DEB32996689300F7268F /* AppDelegate.swift in Sources */,
+				2C42DEEB29967B0800F7268F /* ChatViewCell.swift in Sources */,
+				2C42DEE5299679AC00F7268F /* Utilities.swift in Sources */,
 				2C42DEB52996689300F7268F /* SceneDelegate.swift in Sources */,
+				2C42DEF1299767E600F7268F /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +469,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2C42DEB82996689300F7268F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C42DEB92996689300F7268F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2C42DEBD2996689300F7268F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,6 +596,7 @@
 		};
 		2C42DEDA2996689400F7268F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B61C99824219D5E7ECC738D /* Pods-Talkrr.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -442,7 +607,6 @@
 				INFOPLIST_FILE = Talkrr/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -460,6 +624,7 @@
 		};
 		2C42DEDB2996689400F7268F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C32B7AB5244F168D138F61E7 /* Pods-Talkrr.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -470,7 +635,6 @@
 				INFOPLIST_FILE = Talkrr/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -488,6 +652,7 @@
 		};
 		2C42DEDD2996689400F7268F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4A160A852C8D68469B574CB /* Pods-TalkrrTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +673,7 @@
 		};
 		2C42DEDE2996689400F7268F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5465D1F9BC47CC102A4BBC97 /* Pods-TalkrrTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +694,7 @@
 		};
 		2C42DEE02996689400F7268F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34511FE7A9BFE898F7316E8E /* Pods-Talkrr-TalkrrUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +713,7 @@
 		};
 		2C42DEE12996689400F7268F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23CF73223D2E5091AC34DCF2 /* Pods-Talkrr-TalkrrUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

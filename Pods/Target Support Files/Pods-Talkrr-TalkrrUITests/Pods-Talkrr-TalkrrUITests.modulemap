@@ -1,0 +1,6 @@
+framework module Pods_Talkrr_TalkrrUITests {
+  umbrella header "Pods-Talkrr-TalkrrUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
